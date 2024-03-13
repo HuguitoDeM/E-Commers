@@ -1,0 +1,31 @@
+.registro{
+    background-color: black; 
+    height: 29em;
+    border-radius: 9%;
+ }
+ 
+ .inputs{
+     height: 17em;
+     width: 14em;
+     align-items: center;
+     font-size: 1.5em;
+ 
+ }
+ 
+ .inputs_label{
+     padding-top: 3%;
+     display: block;
+ }
+ 
+ .inputs_text{
+     margin-top: 3%;
+     height: 9%;
+     border-style: hidden;
+     border-radius: 9999px;
+     border-color: black;
+    
+ }
+ .terminos{ 
+    margin-top: 12%;
+    font-size: 0.5em;
+ }

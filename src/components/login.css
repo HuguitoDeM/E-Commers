@@ -1,0 +1,27 @@
+.inicio_sesion{
+   background-color: black; 
+   height: 22em;
+   border-radius: 9%;
+}
+
+.inputs{
+    height: 10em;
+    width: 14em;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+.inputs_label{
+    padding-top: 5%;
+    display: block;
+}
+
+.inputs_text{
+    margin-top: 5%;
+    height: 13%;
+    border-style: hidden;
+    border-radius: 9999px;
+    border-color: black;
+    
+}
