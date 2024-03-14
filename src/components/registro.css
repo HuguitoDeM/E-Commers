@@ -8,7 +8,7 @@
      height: 17em;
      width: 14em;
      align-items: center;
-     font-size: 1.5em;
+     font-size: 1.4em;
  
  }
  
@@ -18,14 +18,21 @@
  }
  
  .inputs_text{
-     margin-top: 3%;
-     height: 9%;
+     margin-top: 1%;
+     height: 7.5%;
      border-style: hidden;
      border-radius: 9999px;
-     border-color: black;
+     border-color: #646cff;
+     border: 1px solid transparent;
+     background-color: #492727;
     
  }
- .terminos{ 
-    margin-top: 12%;
-    font-size: 0.5em;
+ .inputs_text:hover {
+    border-color: #646cff;
+  }
+
+ .inputs>button{
+    width: 60%;
+    height: 15.5%;
+    margin-top: 2em;
  }

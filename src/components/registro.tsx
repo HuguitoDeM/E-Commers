@@ -11,13 +11,14 @@ return (
                         <input className='inputs_text' placeholder='Usuario'></input>
                         <label className='inputs_label'>Contraseña</label>
                         <input className='inputs_text' placeholder='Apellido'></input>
-                        <label className='inputs_label terminos'>Terminos y condiciones</label>
-                        <input className='inputs_text' type='checkbox'></input>
+                        <label className='inputs_label'>Correo</label>
+                        <input className='inputs_text' placeholder='Correo Electronico'></input>
                         
-                </div>
-                <button>
+                        <button>
                         Registrarse
-                </button>
+                        </button>
+                </div>
+                
         </form>
     </div>
     )

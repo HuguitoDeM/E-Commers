@@ -9,10 +9,11 @@ function Login (){
                  <input className='inputs_text' placeholder='Usuario'></input>
                  <label className='inputs_label'>Contraseña</label>
                  <input className='inputs_text' placeholder='Contraseña'></input>
-            </div>
-            <button>
+                 <button>
                 Iniciar sesion
-            </button>
+                </button>
+            </div>
+            
             </form>
     </div>
     )
