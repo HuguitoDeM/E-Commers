@@ -1,7 +1,9 @@
 .inicio_sesion{
    background-color: black; 
-   height: 17em;
+   height: 25em;
    border-radius: 9%;
+   align-items: center;
+   width: 25em;
 }
 
 .inputs{
@@ -20,9 +22,7 @@
 .inputs_text{
     margin-top: 5%;
     height: 13%;
-    border-style: hidden;
-    border-radius: 9999px;
-    border-color: black;
+    border-style: hidden;  
     
 }
 

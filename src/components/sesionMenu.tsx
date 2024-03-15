@@ -1,21 +1,23 @@
 import { useState } from 'react'
 import Login from './login'
 import Registro from './registro'
+import {SESION} from '../const/registro.ts'
+import '../App.css'
 function SesionMenu(){
 
 
-    const [loginOption, setLoginOption] = useState("login")
-    const [textLogReg, setTextLogReg] = useState("login")
+    const [loginOption, setLoginOption] = useState(SESION.login)
+    const [textLogReg, setTextLogReg] = useState(SESION.login)
    const handleChooseOption  = () =>{
-     loginOption === "login" ? setLoginOption("registro"): setLoginOption("login");
-     textLogReg === "login" ? setTextLogReg("registro"): setTextLogReg("login");
+     loginOption === SESION.login ? setLoginOption(SESION.registro): setLoginOption(SESION.login);
+     textLogReg === SESION.login ? setTextLogReg(SESION.registro): setTextLogReg(SESION.login);
    }
 
 
 
     return(
-        <div>
-<div>{loginOption == "login" ? <Registro/>: <Login/>}</div>
+        <div className='session_change'>
+<div>{loginOption == SESION.login ? <Registro/>: <Login/>}</div>
 
 <button onClick={handleChooseOption}>{textLogReg}</button>
 </div>

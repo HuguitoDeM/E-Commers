@@ -1,15 +1,13 @@
-import Boards from "./components/boards"
+import SesionMenu from "./components/sesionMenu"
 function App() {
 
 
 
 return(
 
-<>
-<Boards/>
-</>
-
-
+<div>
+<SesionMenu/>
+</div>
 )
 }
 
